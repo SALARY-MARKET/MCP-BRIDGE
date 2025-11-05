@@ -1,0 +1,18 @@
+server:
+  port: 9090
+
+mcp:
+  enabled: true
+  base-path: /mcp
+  open-api-path: /v3/api-docs
+  token: test-token-123
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
+logging:
+  level:
+    com.mcpbridge: DEBUG
