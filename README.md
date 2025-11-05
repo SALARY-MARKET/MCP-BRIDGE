@@ -362,6 +362,7 @@ springdoc:
                   },
                   "arguments": {
                     "type": "object",
+                    "properties": {},
                     "additionalProperties": true
                   }
                 },
@@ -372,7 +373,22 @@ springdoc:
         },
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    },
+                    "result": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
