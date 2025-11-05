@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.SALARY-MARKET:MCP-BRIDGE:1.0.0'
+    implementation 'com.github.SALARY-MARKET:MCP-BRIDGE:1.0.8'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.4'
 }
@@ -50,7 +50,7 @@ dependencies {
 <dependency>
     <groupId>com.github.SALARY-MARKET</groupId>
     <artifactId>MCP-BRIDGE</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.8</version>
 </dependency>
 ```
 
@@ -194,7 +194,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.SALARY-MARKET:MCP-BRIDGE:1.0.0'
+    implementation 'com.github.SALARY-MARKET:MCP-BRIDGE:1.0.8'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.4'
 }
@@ -213,7 +213,7 @@ dependencies {
 <dependency>
     <groupId>com.github.SALARY-MARKET</groupId>
     <artifactId>MCP-BRIDGE</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.8</version>
 </dependency>
 ```
 
