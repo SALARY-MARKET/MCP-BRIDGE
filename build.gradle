@@ -13,8 +13,8 @@ bootJar {
     enabled = false
 }
 
-group = 'com.github.KidKim826'
-version = '1.0.7'
+group = 'com.github.SALARY-MARKET'
+version = '1.0.0'
 
 java {
     toolchain {
@@ -64,7 +64,7 @@ publishing {
             pom {
                 name = 'MCP Spring Bridge'
                 description = 'Auto-expose Spring Boot APIs to LLMs via Model Context Protocol (MCP)'
-                url = 'https://github.com/KidKim826/mcp-spring-bridge'
+                url = 'https://github.com/SALARY-MARKET/MCP-BRIDGE'
                 
                 licenses {
                     license {
